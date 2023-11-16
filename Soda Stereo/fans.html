@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,23 +13,25 @@
     <link rel="stylesheet" href="estilos/styles-fan.css">
 </head>
 </head>
+
 <body>
     <main>
         <section>
-            <form action="" class="formulario"></form>
-            <h1 class="formulario__titulo">¡COMPLETA EL FORMULARIO Y FORMA PARTE DEL CLUB DE FANS!</h1>
-                <input type="text" class="formulario__input">
-                <label for=""class="formulario__label">Nombre</label>
-                <input type="text" class="formulario__input">
-                <label for=""class="formulario__label">Apellido</label>
-                <input type="text" class="formulario__input">
-                <label for=""class="formulario__label">Mail</label>
-                <input type="text" class="formulario__input">
-                <label for=""class="formulario__label">Telefono</label>
-                <input type="submit" class="formulario__submit">
-
+            <form action="" id="form" class="formulario">
+                <h1 class="formulario__titulo">¡COMPLETA EL FORMULARIO Y FORMA PARTE DEL CLUB DE FANS!</h1>
+                <input id="nombre" type="text" class="formulario__input">
+                <label for="nombre" class="formulario__label">Nombre</label>
+                <input id="apellido" type="text" class="formulario__input">
+                <label for="apellido" class="formulario__label">Apellido</label>
+                <input id="mail" type="text" class="formulario__input">
+                <label for="mail" class="formulario__label">Mail</label>
+                <input id="telefono" type="text" class="formulario__input">
+                <label for="telefono" class="formulario__label">Telefono</label>
+                <input id="submit" type="submit" class="formulario__submit">
+            </form>
         </section>
     </main>
     <script src="script/fans.js"></script>
 </body>
+
 </html>
