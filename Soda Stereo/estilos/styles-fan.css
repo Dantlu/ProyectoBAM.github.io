@@ -79,6 +79,10 @@ margin-top: -135px;
     border: none;
 }
 
+.formulario__label_active{
+    margin-top: -135px;
+}
+
 .fijar{
     margin-top: -135px;
 }
