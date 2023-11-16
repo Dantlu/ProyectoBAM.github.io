@@ -151,11 +151,11 @@ header{
     transform: perspective(600px) rotateY(360deg);
 }
 
-#historia{
+/*#historia{
     display: flex;
     align-items: center;
     flex-direction: column;
-}
+}*/
 
 #historia p{
     color:azure;
@@ -228,8 +228,8 @@ header{
     color: white;
 }
 
-.texto{
-    /* arriba | derecha | abajo | izquierda */
+/*.texto{
+    /* arriba | derecha | abajo | izquierda 
     padding: 0 10% 2% 10%;
     text-align: center;
    
@@ -238,8 +238,7 @@ header{
 .texto p{
     font-size: 15px;
     padding: 30px;
-}
-
+}*/
 button {
     font-size: 1em;
     font-weight: bold;
@@ -410,6 +409,64 @@ footer{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+}
+
+#historia{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.texto{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+@media (max-width:1000px){
+    .card-conteiner{
+        flex-direction: column;
+    }
+
+    .texto-p{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .contenedor{
+        flex-wrap: wrap;
+        max-width: 900px;
+    }
+}
+
+@media (max-width:850px){
+    .texto{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .texto-p{
+        font-size: 15px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .hist{
+        width: 50%;
+    }
+    .contenedor{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:600px){
+    .texto-p{
+        width: 300px;
+    }
 }
 
 /*@media screen and (max-width:768px){
