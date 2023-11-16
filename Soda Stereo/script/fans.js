@@ -17,3 +17,5 @@ function activarFormLabel(){
         })
     })
 }
+
+formulario.addEventListener("mousedown", activarFormLabel);
